@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2h-EZ-NQU">
-                                <rect key="frame" x="80" y="33" width="160" height="284"/>
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="284"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Ray" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3A-a1-Uz7">
                                         <rect key="frame" x="66" y="255" width="29" height="21"/>
@@ -26,7 +26,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="mET-zB-3EJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray" translatesAutoresizingMaskIntoConstraints="NO" id="mET-zB-3EJ">
                                         <rect key="frame" x="20" y="20" width="120" height="227"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
@@ -35,22 +35,106 @@
                                 <constraints>
                                     <constraint firstItem="P3A-a1-Uz7" firstAttribute="centerX" secondItem="Y2h-EZ-NQU" secondAttribute="centerX" id="1JQ-cG-2t5"/>
                                     <constraint firstItem="mET-zB-3EJ" firstAttribute="top" secondItem="Y2h-EZ-NQU" secondAttribute="top" constant="20" id="YHE-lF-tUn"/>
-                                    <constraint firstAttribute="height" constant="284" id="aou-Z1-kSb"/>
                                     <constraint firstItem="mET-zB-3EJ" firstAttribute="leading" secondItem="Y2h-EZ-NQU" secondAttribute="leading" constant="20" id="fBK-S8-ykD"/>
                                     <constraint firstItem="P3A-a1-Uz7" firstAttribute="top" secondItem="mET-zB-3EJ" secondAttribute="bottom" constant="8" id="loL-Te-5WO"/>
                                     <constraint firstAttribute="bottom" secondItem="P3A-a1-Uz7" secondAttribute="bottom" constant="8" id="tXa-f8-3WH"/>
-                                    <constraint firstAttribute="width" constant="160" id="ty7-PB-tYJ"/>
                                     <constraint firstAttribute="trailing" secondItem="mET-zB-3EJ" secondAttribute="trailing" constant="20" id="ufp-XI-nQo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W6e-n5-9PM">
+                                <rect key="frame" x="0.0" y="284" width="160" height="284"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Dennis Ritchie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0di-k5-Nc1">
+                                        <rect key="frame" x="25" y="255" width="110" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dennis Ritchie" translatesAutoresizingMaskIntoConstraints="NO" id="j3r-UV-LE0">
+                                        <rect key="frame" x="20" y="20" width="120" height="227"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0di-k5-Nc1" firstAttribute="top" secondItem="j3r-UV-LE0" secondAttribute="bottom" constant="8" id="3mz-gR-gTN"/>
+                                    <constraint firstItem="j3r-UV-LE0" firstAttribute="leading" secondItem="W6e-n5-9PM" secondAttribute="leading" constant="20" id="Iaf-l6-nHv"/>
+                                    <constraint firstItem="0di-k5-Nc1" firstAttribute="centerX" secondItem="W6e-n5-9PM" secondAttribute="centerX" id="N6c-da-liS"/>
+                                    <constraint firstAttribute="bottom" secondItem="0di-k5-Nc1" secondAttribute="bottom" constant="8" id="d1u-Oi-yOb"/>
+                                    <constraint firstItem="j3r-UV-LE0" firstAttribute="top" secondItem="W6e-n5-9PM" secondAttribute="top" constant="20" id="mLV-gd-dz7"/>
+                                    <constraint firstAttribute="trailing" secondItem="j3r-UV-LE0" secondAttribute="trailing" constant="20" id="yvC-Rw-oXu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HP4-UD-gVN">
+                                <rect key="frame" x="160" y="0.0" width="160" height="284"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Matthijs" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-RF-QHh">
+                                        <rect key="frame" x="20" y="20" width="120" height="227"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Matthijs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho1-Y5-UfF">
+                                        <rect key="frame" x="50" y="255" width="61" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="9pW-RF-QHh" firstAttribute="leading" secondItem="HP4-UD-gVN" secondAttribute="leading" constant="20" id="4Yz-iz-dGt"/>
+                                    <constraint firstAttribute="bottom" secondItem="ho1-Y5-UfF" secondAttribute="bottom" constant="8" id="amx-tp-u9e"/>
+                                    <constraint firstItem="ho1-Y5-UfF" firstAttribute="top" secondItem="9pW-RF-QHh" secondAttribute="bottom" constant="8" id="szF-2Y-sJ7"/>
+                                    <constraint firstItem="9pW-RF-QHh" firstAttribute="top" secondItem="HP4-UD-gVN" secondAttribute="top" constant="20" id="tpm-lO-v0E"/>
+                                    <constraint firstItem="ho1-Y5-UfF" firstAttribute="centerX" secondItem="HP4-UD-gVN" secondAttribute="centerX" id="xLh-XP-uOO"/>
+                                    <constraint firstAttribute="trailing" secondItem="9pW-RF-QHh" secondAttribute="trailing" constant="20" id="zi2-tM-mcd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILO-15-Loi">
+                                <rect key="frame" x="160" y="284" width="160" height="284"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Brad Cox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChQ-RG-zM4">
+                                        <rect key="frame" x="45" y="255" width="70" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brad Cox" translatesAutoresizingMaskIntoConstraints="NO" id="6YZ-8O-X7o">
+                                        <rect key="frame" x="20" y="20" width="120" height="227"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ChQ-RG-zM4" firstAttribute="centerX" secondItem="ILO-15-Loi" secondAttribute="centerX" id="Fd2-dv-QZa"/>
+                                    <constraint firstItem="6YZ-8O-X7o" firstAttribute="top" secondItem="ILO-15-Loi" secondAttribute="top" constant="20" id="TxF-Nx-wP0"/>
+                                    <constraint firstAttribute="bottom" secondItem="ChQ-RG-zM4" secondAttribute="bottom" constant="8" id="X6S-ML-UcQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="6YZ-8O-X7o" secondAttribute="trailing" constant="20" id="ikU-39-pH0"/>
+                                    <constraint firstItem="ChQ-RG-zM4" firstAttribute="top" secondItem="6YZ-8O-X7o" secondAttribute="bottom" constant="8" id="n86-zu-VyM"/>
+                                    <constraint firstItem="6YZ-8O-X7o" firstAttribute="leading" secondItem="ILO-15-Loi" secondAttribute="leading" constant="20" id="zHS-fi-rGR"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Y2h-EZ-NQU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="AuO-mt-pXg"/>
-                            <constraint firstItem="Y2h-EZ-NQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="QUW-yd-xiH"/>
+                            <constraint firstItem="ILO-15-Loi" firstAttribute="height" secondItem="Y2h-EZ-NQU" secondAttribute="height" id="5Ez-t3-Ujd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="W6e-n5-9PM" secondAttribute="bottom" id="5n6-V3-Ou1"/>
+                            <constraint firstItem="HP4-UD-gVN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6f7-sy-cb2"/>
+                            <constraint firstItem="Y2h-EZ-NQU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="AuO-mt-pXg"/>
+                            <constraint firstItem="HP4-UD-gVN" firstAttribute="leading" secondItem="Y2h-EZ-NQU" secondAttribute="trailing" id="OV4-RT-1X2"/>
+                            <constraint firstItem="Y2h-EZ-NQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QUW-yd-xiH"/>
+                            <constraint firstItem="W6e-n5-9PM" firstAttribute="top" secondItem="Y2h-EZ-NQU" secondAttribute="bottom" id="Ss4-GQ-lqL"/>
+                            <constraint firstItem="W6e-n5-9PM" firstAttribute="height" secondItem="Y2h-EZ-NQU" secondAttribute="height" id="XkV-kV-HDl"/>
+                            <constraint firstItem="W6e-n5-9PM" firstAttribute="width" secondItem="Y2h-EZ-NQU" secondAttribute="width" id="cbj-RB-Llc"/>
+                            <constraint firstItem="HP4-UD-gVN" firstAttribute="width" secondItem="Y2h-EZ-NQU" secondAttribute="width" id="dVG-Ox-sV4"/>
+                            <constraint firstItem="ILO-15-Loi" firstAttribute="width" secondItem="Y2h-EZ-NQU" secondAttribute="width" id="f0B-hR-sL8"/>
+                            <constraint firstAttribute="trailing" secondItem="ILO-15-Loi" secondAttribute="trailing" id="hym-6W-O0A"/>
+                            <constraint firstAttribute="trailing" secondItem="HP4-UD-gVN" secondAttribute="trailing" id="i85-aV-ESW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ILO-15-Loi" secondAttribute="bottom" id="jIT-2g-nl7"/>
+                            <constraint firstItem="W6e-n5-9PM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tGf-HZ-2i4"/>
+                            <constraint firstItem="HP4-UD-gVN" firstAttribute="height" secondItem="Y2h-EZ-NQU" secondAttribute="height" id="xtt-9D-V3F"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,6 +142,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Ray.png" width="230" height="219"/>
+        <image name="Brad Cox" width="176" height="214"/>
+        <image name="Dennis Ritchie" width="144" height="145"/>
+        <image name="Matthijs" width="144" height="158"/>
+        <image name="Ray" width="230" height="219"/>
     </resources>
 </document>
