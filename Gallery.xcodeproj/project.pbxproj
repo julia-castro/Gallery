@@ -12,6 +12,7 @@
 		3E797C301D9C2D4D0025EC14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E797C2E1D9C2D4D0025EC14 /* Main.storyboard */; };
 		3E797C321D9C2D4D0025EC14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E797C311D9C2D4D0025EC14 /* Assets.xcassets */; };
 		3E797C351D9C2D4D0025EC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E797C331D9C2D4D0025EC14 /* LaunchScreen.storyboard */; };
+		3E797C3D1D9C44FF0025EC14 /* Images 2 in Resources */ = {isa = PBXBuildFile; fileRef = 3E797C3C1D9C44FF0025EC14 /* Images 2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3E797C311D9C2D4D0025EC14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E797C341D9C2D4D0025EC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E797C361D9C2D4D0025EC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E797C3C1D9C44FF0025EC14 /* Images 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Images 2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3E797C291D9C2D4D0025EC14 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				3E797C3C1D9C44FF0025EC14 /* Images 2 */,
 				3E797C2A1D9C2D4D0025EC14 /* AppDelegate.swift */,
 				3E797C2C1D9C2D4D0025EC14 /* ViewController.swift */,
 				3E797C2E1D9C2D4D0025EC14 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E797C3D1D9C44FF0025EC14 /* Images 2 in Resources */,
 				3E797C351D9C2D4D0025EC14 /* LaunchScreen.storyboard in Resources */,
 				3E797C321D9C2D4D0025EC14 /* Assets.xcassets in Resources */,
 				3E797C301D9C2D4D0025EC14 /* Main.storyboard in Resources */,
